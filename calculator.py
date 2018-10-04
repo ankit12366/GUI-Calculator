@@ -3,7 +3,8 @@ import parser
 root = Tk()
 
 root.title('Calculator')
-i = 0
+i = 0 #initialised to 0
+
 def get_variables(num):
 	global i
 	display.insert(i,num)
